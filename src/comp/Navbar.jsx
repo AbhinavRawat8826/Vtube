@@ -117,7 +117,7 @@ function Navbar({ showHamburger = true }) {
 
   const handleNav=(item)=>{
     navigate(`/search/${item}`);
-    setInput(""); 
+    setInput(`/search/${item}`); 
     
   }
   const handleKeyDown = (e) => {
