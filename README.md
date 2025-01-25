@@ -2,7 +2,7 @@ Vtube
 
 
 # Vtube app a youtube clone made with react,redux-toolkit,tailwind-css and firebase.
-## Preview- https://vtube-app1.firebaseapp.com/auth
+## Preview- https://vtubeapp1.firebaseapp.com/
 Vtube is a YouTube clone application built using modern web technologies such as React, Redux Toolkit, Tailwind CSS, and Firebase. It offers features such as video browsing, category-based filtering, searching, related videos, channel pages, and user authentication, along with a responsive layout.
 
 # Features
