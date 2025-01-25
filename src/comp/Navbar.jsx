@@ -92,16 +92,15 @@ function Navbar({ showHamburger = true }) {
 
   const handleVoice = () => {
     setIsVoice(true);
-    setInput(`${transcript}`);
+    setInput("");
     setVoiceText("");
     recognition.start();
 
     recognition.onresult = (event) => {
- 
       const transcript = event.results[0][0].transcript;
-     
       setVoiceText(transcript);
       debouncedVoiceSearch(transcript);
+      setInput(transcript);
     };
   };
 
