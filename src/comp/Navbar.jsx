@@ -92,7 +92,7 @@ function Navbar({ showHamburger = true }) {
 
   const handleVoice = () => {
     setIsVoice(true);
-    setInput("");
+    setInput(`${transcript}`);
     setVoiceText("");
     recognition.start();
 
